@@ -1,0 +1,43 @@
+.contact-card {
+  max-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.contact-header h2 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.social-links a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+  margin: 5px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #555;
+}
